@@ -10,7 +10,7 @@ Pagila is a "DVD Rental Store" type example database for PostgreSQL. It provides
 
 To install the pagila database, clone down this repo. Using your terminal, `cd` into this project. To ensure you are in the right directory, run `ls` and make sure you see the files `pagila-data.sql`, `pagila-insert-data.sql`, and `pagila-schema.sql`.
 
-Once you are in the correct directory, copy and paste these four times and run them in your terminal. 
+Once you are in the correct directory, copy and paste these four lines and run them in your terminal. 
 
 ```
 psql -c "DROP DATABASE pagila;"
