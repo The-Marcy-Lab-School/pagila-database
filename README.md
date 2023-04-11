@@ -7,6 +7,7 @@ Pagila is a "DVD Rental Store" type example database for PostgreSQL. It provides
 
 ## INSTALLATION STEPS
 
+You must [set up Postgres](https://github.com/The-Marcy-Lab-School/postgres-setup) on your local machine if you havn't done so already.
 
 To install the pagila database, clone down this repo. Using your terminal, `cd` into this project. To ensure you are in the right directory, run `ls` and make sure you see the files `pagila-data.sql`, `pagila-insert-data.sql`, and `pagila-schema.sql`.
 
