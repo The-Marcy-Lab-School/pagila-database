@@ -24,4 +24,4 @@ data, the former using COPY commands, the latter using INSERT commands, so you
 only need to install one of them. Both formats are provided for those who have
 trouble using one version or another.
 
-You can now open your `pagila` database via your TablePlus and run SQL queries. 
+You can now run SQL queries in `psql` or you can now open your `pagila` database via your TablePlus and run SQL queries. 
