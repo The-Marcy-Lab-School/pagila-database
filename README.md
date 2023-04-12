@@ -13,12 +13,22 @@ To install the pagila database, clone down this repo. Using your terminal, `cd` 
 
 Once you are in the correct directory, copy and paste these four lines and run them in your terminal. 
 
+##### For Mac Users
 ```
 psql -c "DROP DATABASE pagila;"
 psql -c "CREATE DATABASE pagila;"
 psql -d pagila -f pagila-schema.sql
 psql -d pagila -f pagila-data.sql
 ```
+
+##### For Windows Users
+```
+sudo -u postgres psql -c "DROP DATABASE pagila;"
+sudo -u postgres psql -c "CREATE DATABASE pagila;"
+sudo -u postgres psql -d pagila -f pagila-schema.sql
+sudo -u postgres psql -d pagila -f pagila-data.sql
+```
+
 
 The pagila-data.sql file and the pagila-insert-data.sql both contain the same
 data, the former using COPY commands, the latter using INSERT commands, so you 
